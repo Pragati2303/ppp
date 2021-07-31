@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        background-image: url(dark.jpg);
+        height: 100vh;
+
+
+
+
+    }
+
+    ul {
+        float: right;
+        list-style-type: none;
+        margin-top: 15px;
+
+    }
+
+    ul li {
+        display: inline-block;
+    }
+
+    ul li a {
+
+        padding: 10px;
+        margin: 20px;
+        color: rgb(224, 224, 90);
+        border-color: whitesmoke;
+        background-color: transparent;
+
+    }
+
+    ul li a:hover {
+        background-color: whitesmoke;
+        color: #000;
+    }
+
+    ul li.active a {
+        background-color: whitesmoke;
+        color: #000;
+    }
+
+    .logo img {
+        float: left;
+        width: 120px;
+        height: auto;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+
+    .main {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .title {
+        position: absolute;
+        top: 200px;
+        left: 400px;
+
+    }
+
+
+    .title h1 {
+        color: rgb(234 205 130);
+        font-size: 50px;
+        margin-left: -90px;
+        font-family: "Sofia", sans-serif;
+
+    }
+
+    .title h2 {
+        color: rgb(234 205 130);
+        font-size: 30px;
+        font-family: "Sofia", sans-serif;
+        margin-left: 170px;
+    }
+
+    .title h3 {
+        color: rgb(234 205 130);
+        font-size: 50px;
+        font-family: "Sofia", sans-serif;
+        margin-left: 210px;
+
+    }
+
+    .title p {
+        font-family: 'Dancing Script', cursive;
+        ;
+        color: ivory;
+        font-size: 35px;
+        margin-top: 40px;
+        -webkit-animation: colorchange 20s infinite alternate;
+
+    }
+
+    @-webkit-keyframes colorchange {
+        0% {
+            color: blue;
+        }
+
+        10% {
+            color: yellow;
+        }
+
+        20% {
+            color: violet;
+        }
+
+        30% {
+            color: turquoise;
+        }
+
+        40% {
+            color: tomato;
+        }
+
+        50% {
+            color: teal;
+        }
+
+        60% {
+            color: rgb(54, 211, 132);
+        }
+
+        70% {
+            color: rgb(128, 0, 53);
+        }
+
+        80% {
+            color: rgb(221, 21, 14);
+        }
+
+
+    }
+
+    #signin {
+        background-size: auto;
+        width: 230px;
+        height: 35px;
+        position: absolute;
+        left: 500px;
+        top: 300px;
+        font-size: 15px;
+        border: ridge white;
+        background: transparent;
+        color: rgb(236, 236, 144);
+        border-radius: 15px;
+        border-width: thin;
+
+    }
+
+    #n1 {
+        font-size: 20px;
+        margin-top: 2px;
+        margin-left: 12px;
+    }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<body>
+    <section>
+        <div class="logo">
+            <img src="" alt=""C:\Users\hp\Desktop\webpage\.vscode\plogo.png >
+
+        </div>
+        <div class="main">
+            <ul class="list">
+                <li class="active"><a href="#home">Home</a></li>
+
+                <li><a href="https://www.fnp.com/cakes">Categories</a></li>
+                <li><a href="contact.html"> Contact Us</a></li>
+                <li><a href="https://www.fnp.com/info/help-center?promo=help_hmenu&cid=india">Help</a></li>
+
+
+            </ul>
+        </div>
+        <div class="title">
+            <h1>WELCOME</h1>
+            <h2>TO </h2>
+            <h3>PUNE BAKERS</h3>
+
+            <p> <span>Unique</span>
+                <span>creation </span>
+                <span>for</span>
+                <span>unique</span>
+                <span>occation</span>
+
+            </p>
+            <a id="signin" href="form.html">
+                <h6 id="n1">Click Here TO Sign-In</h6>
+            </a>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
